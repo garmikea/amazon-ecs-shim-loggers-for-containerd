@@ -51,6 +51,7 @@ func run() error {
 		return errors.Wrap(err, "unable to bind command line flags")
 	}
 
+	// Testing GitHub actions unit test consistency, tenth run.
 	globalArgs, err := getGlobalArgs()
 	if err != nil {
 		return errors.Wrap(err, "unable to get global arguments")
